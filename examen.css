@@ -1,0 +1,104 @@
+
+body{
+background-color: rgba(0, 0, 0, 0.447);
+
+
+}
+
+
+
+
+
+.fondo{
+ 
+
+     background-image: url('fotocv.jpg');
+     background-repeat: round;
+     background-size: 200px;
+     background-attachment: fixed;
+     background-position: inherit; 
+    
+}
+    
+
+    .cuadrado{
+        
+        background-color: rgba(173, 107, 104, 0.412);
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        top:25% ;
+        right: 36%; 
+        padding: 40px;
+    }
+    
+    .texto{
+        
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:rgba(240, 248, 255, 0.484);
+    
+}
+
+    .botones{
+        background-color:transparent;
+        text-align: center;
+    }
+
+    .btn{
+
+background-color:rgba(245, 245, 220, 0.295);
+text-align: center;
+margin: 5px 40px;
+
+    }
+
+
+  .circuloWhatsapp{
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 62px;
+    background-color: #00bb2d;
+    border-radius: 70px;
+
+  }
+
+  .logo{
+    font-size: 45px;
+    color: white;
+    
+    }
+    
+
+
+
+
+
+
+
+    @media (max-width:768px) {
+    
+    .btn {
+    width: 90%;
+    margin: 5px;
+    text-align: center;
+    }
+
+    .cuadrado{
+        
+        background-color: rgba(173, 107, 104, 0.412);
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        top:25% ;
+        right: 25%; 
+        padding: 40px;
+    }
+    
+  
+    }
